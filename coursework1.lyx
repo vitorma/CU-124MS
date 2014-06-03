@@ -3,6 +3,11 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{pgfplots} 
+\usepackage{tikz}
+\usepackage{pst-node}    
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -21,14 +26,23 @@
 
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize a4paper
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -43,6 +57,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 1in
+\bottommargin 1in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -61,7 +79,7 @@
 \begin_body
 
 \begin_layout Title
-124KM - Coursework 1
+124MS - Coursework 1
 \end_layout
 
 \begin_layout Author
@@ -98,7 +116,7 @@ R) if P is false, Q is true, and R is false.
 \begin_layout Standard
 P:
 \emph on
-f
+ f
 \emph default
 
 \begin_inset Newline newline
@@ -224,7 +242,7 @@ width "25page%"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align left
@@ -489,7 +507,7 @@ C
 \begin_inset Text
 
 \begin_layout Plain Layout
-V
+S
 \end_layout
 
 \end_inset
@@ -498,7 +516,7 @@ V
 \begin_inset Text
 
 \begin_layout Plain Layout
-S
+V
 \end_layout
 
 \end_inset
@@ -878,6 +896,184 @@ t
 \begin_layout Plain Layout
 
 \emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
 f
 \end_layout
 
@@ -1034,184 +1230,6 @@ f
 \begin_layout Plain Layout
 
 \emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
 f
 \end_layout
 
@@ -1569,184 +1587,6 @@ t
 
 \emph on
 f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-t
 \end_layout
 
 \end_inset
@@ -1924,7 +1764,7 @@ f
 \begin_layout Plain Layout
 
 \emph on
-f
+t
 \end_layout
 
 \end_inset
@@ -2062,6 +1902,184 @@ t
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+f
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2231,9 +2249,2703 @@ f
 \begin_inset Newline newline
 \end_inset
 
-Argument is not valid as the proposition is not a tautology, meaning that
- the truth values in column 16 are not all true, they contain one false
- value.
+Argument is valid as the proposition is a tautology, meaning that the truth
+ values in column 16 are all true.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Consider the following collection of statements, which are part of the specifica
+tion of the automatic control system for a nuclear power plant:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+
+\series bold
+If the pile overheats, the emergency valve is opened and a warning sounds.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+If a warning sounds, the operator goes outside.
+ If the emergency valve is opened, the operator does not go outside.
+\series medium
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Choose symbols to represent the atomic sentences in the above argument,
+ and hence express the statements in terms of propositional calculus.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Symbols chosen to represent the atomic sentences:
+\begin_inset Newline newline
+\end_inset
+
+P: Pile overheats
+\begin_inset Newline newline
+\end_inset
+
+V: Emergence valve is opened
+\begin_inset Newline newline
+\end_inset
+
+S: Warning sounds
+\begin_inset Newline newline
+\end_inset
+
+O: The operator go outside
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The statements expressed in terms of propositional calculus:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+P 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ V 
+\begin_inset Formula $\wedge$
+\end_inset
+
+ S
+\begin_inset Newline newline
+\end_inset
+
+S 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ O
+\begin_inset Newline newline
+\end_inset
+
+V 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\neg$
+\end_inset
+
+O
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Construct a formal proof (table of assertions and justiﬁcations) showing
+ that the statement The pile does not overheat follows from these hypotheses.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Hint: You may find it useful to use some form of indirect proof.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Considering the three statements P 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+V 
+\begin_inset Formula $\wedge$
+\end_inset
+
+ S, S 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+O, and V 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\neg$
+\end_inset
+
+O as H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+,H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, and H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+ respectively, we then get the following hypotheses (H):
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+:
+\begin_inset Formula $P\Rightarrow V\wedge S$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $S\Rightarrow O$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $V\Rightarrow\neg O$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+C: 
+\begin_inset Formula $\neg P$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Using the proof by contradiction to give us 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $P\Rightarrow V\wedge S$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $S\Rightarrow O$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+: 
+\begin_inset Formula $V\Rightarrow\neg O$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+:
+\begin_inset Formula $P$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+C: 
+\emph on
+
+\begin_inset Formula $f$
+\end_inset
+
+
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Assertion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Justification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P\Rightarrow V\wedge S$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V\wedge S$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,2, modus ponens
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3, simplification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S\Rightarrow O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4, 2, modus ponens
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3, simplification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V\Rightarrow\neg O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7, 8, modus tollens
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $O\wedge\neg O$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6, 9, conjuction
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset Formula $f$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+We have proved that
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P\Rightarrow V\wedge S,S\Rightarrow O,V\Rightarrow\neg O,P\vdash f$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+which is equivalent to, by the proof by contradiction:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P\Rightarrow V\wedge S,S\Rightarrow O,V\Rightarrow\neg O\vdash\neg P$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+So the initial argument is valid.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+I teach a class of 33 students.
+ 13 are friendly, 18 are hard-working and 18 are punctual.
+ 6 are friendly and hard-working, 9 are punctual and hark-working, and 5
+ are friendly and punctual.
+ How many are friendly and punctual, but not hard-working? 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+First I denoted the different sets some letters.
+ There are 3 set and all together there are 33 students.
+ The 3 sets are classified below:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+F: denoted to friendly students set
+\begin_inset Newline newline
+\end_inset
+
+H: denoted to hard-working students set
+\begin_inset Newline newline
+\end_inset
+
+P: denoted to punctual students set
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+We then get the general statements:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|F|$
+\end_inset
+
+ = 13
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|H|$
+\end_inset
+
+ = 18
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|P|$
+\end_inset
+
+ = 18
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+As there are 33 students in total, which includes friendly, hard-working
+ and punctual sets, we can come to the following conclusion.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|F\cup H\cup P|=33$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Also from the question, we know that 6 students are friendly and hard-working,
+ 9 are punctual and hard-working, and 5 are friendly and punctual.
+ From this we can form the following statements:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|F\cap H|=6$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|P\cap H|=9$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|F\cap P|=5$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+the following Venn diagram illustrates all the information that we have
+ for now.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setF{ (0,0) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setH{ (3.5,0) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setP{ (60:3.5) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setU{ (-4, -3.5) rectangle (8, 7.25) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setF;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+fill[blue!60] 
+\backslash
+setP;
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{scope} 
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setF;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setP;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+fill[white] 
+\backslash
+setH;
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setU node[below left]{$33$}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (-3.5,1) node {$F$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (7,1) node {$H$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,6.5) node {$P$}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setF node[left, text width=2cm] {$13-(5-x)-(6-x)-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setH node[right, text width=2cm] {$18-(9-x)-(6-x)-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setP node [above] {$18-(5-x)-(9-x)-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+begin{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(30:2) node {$x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	  
+\backslash
+draw(330:2) node {$6-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(30:4) node {$9-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(90:2) node {$5-x$};
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the formula:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|F\cup H\cup P|=|F|+|H|+|P|-|F\cap H|-|P\cap H|-|F\cap P|+|F\cap H\cap P|$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Substituting in the values I know form the question, will help me find out
+ the x value I need for the Venn diagram.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $33=13+18+18-6-9-5+|F\cap H\cap P|$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $|F\cap H\cap P|=4$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+This shows that 4 students are friendly, hard-working and punctual, so only
+ 4 students contain in all 3 sets.
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+completing the Venn diagram, by substituting 
+\begin_inset Formula $x=4$
+\end_inset
+
+, we have.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setF{ (0,0) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setH{ (3.5,0) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setP{ (60:3.5) circle (3cm) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def 
+\backslash
+setU{ (-4, -3.5) rectangle (8, 7.25) } 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setF;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+fill[blue!60] 
+\backslash
+setP;
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{scope} 
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setF;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+clip 
+\backslash
+setP;
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+fill[white] 
+\backslash
+setH;
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setU node[below left]{$33$}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (-3.5,1) node {$F$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (7,1) node {$H$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,6.5) node {$P$}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setF node[left, text width=2cm] {$13-(5-4)-(6-4)-4=6$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setH node[right, text width=2cm] {$18-(9-4)-(6-4)-4=7$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw 
+\backslash
+setP node [above] {$18-(5-4)-(9-4)-4=8$};
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+begin{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(30:2) node {$4$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	  
+\backslash
+draw(330:2) node {$6-4=2$};
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(30:4) node {$9-4=6$};
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+draw(90:2) node {$5-4=1$};
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+end{scope}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observing the Veen diagram, specifically the blue area, we can conclude
+ that only 1 student is friendly and punctual but not hard-working.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+-
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Use a membership table to show that the sets A ∪ B and A ∪ C are not equal
+ in general.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cup$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cup$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+O
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Since column 6 and 9 do not contain the same values, they are not the same,
+ so therefore the sets not equal.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Use a hybrid table to show that the sets A ∪ B and A ∪ C are equal if B
+ = C.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Give an example of a situation where the equality holds, even though B 6=
+ C.
+ Hint take A, B and C to be subsets of the universal set {x, y, z}.
+ 
 \end_layout
 
 \end_deeper
