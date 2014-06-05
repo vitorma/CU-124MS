@@ -918,7 +918,7 @@ t
 \begin_layout Plain Layout
 
 \emph on
-f
+t
 \end_layout
 
 \end_inset
@@ -962,7 +962,7 @@ t
 \begin_layout Plain Layout
 
 \emph on
-t
+f
 \end_layout
 
 \end_inset
@@ -2227,8 +2227,9 @@ f
 \begin_inset Newline newline
 \end_inset
 
-Argument is valid as the proposition is a tautology, meaning that the truth
- values in column 16 are all true.
+Argument is not valid as the proposition is not a tautology, meaning that
+ the truth values in column 16 are not all true, there is one possibility
+ that is false.
 \end_layout
 
 \end_deeper
