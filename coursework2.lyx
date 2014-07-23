@@ -1,0 +1,1831 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{pgfplots} 
+\usepackage{tikz}
+\usepackage{pst-node} 
+\usetikzlibrary{fit,shapes}   
+\usetikzlibrary{arrows}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 0.5in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename Assignment_Submission_and_Declaration_Form_2.pdf
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+124MS - Coursework 2
+\end_layout
+
+\begin_layout Author
+Vitor Morato Almeida
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+The functions f : {1, 2, 3} → {a, b} and g : {a, b} → {x, y, z} are given
+ by f(1) = b, f(2) = b, f(3) = a, g(a) = y, g(b) = x.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Classify each of f and g as bijective, injective, surjective, or neither.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+Lets draw the mapping diagrams to help to classify each function
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	>=stealth,
+\end_layout
+
+\begin_layout Plain Layout
+
+	bullet/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		fill=black,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	circle,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	minimum width=1pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=1pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},     
+\end_layout
+
+\begin_layout Plain Layout
+
+	projection/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		->,
+\end_layout
+
+\begin_layout Plain Layout
+
+		thick,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten <=2pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten >=2pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},
+\end_layout
+
+\begin_layout Plain Layout
+
+	every fit/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		ellipse,
+\end_layout
+
+\begin_layout Plain Layout
+
+		draw,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=0pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+ ]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {1/3,2/2,3/1}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=left:$
+\backslash
+l$] (a
+\backslash
+y) at (0,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {2/b,3/a}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=right:$
+\backslash
+l$] (b
+\backslash
+y) at (4,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(a1) (a2) (a3),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(b2) (b3),minimum width=2cm] {} ;
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,0) node {$f$};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+draw[projection] (a1) -- (b3);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a2) -- (b2);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a3) -- (b2);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+from the diagram of function 
+\begin_inset Formula $f$
+\end_inset
+
+ above we can see that every element of the codomain is mapped to by at
+ least one element of the domain, so function 
+\begin_inset Formula $f$
+\end_inset
+
+ is surjective
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	>=stealth,
+\end_layout
+
+\begin_layout Plain Layout
+
+	bullet/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		fill=black,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	circle,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	minimum width=1pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=1pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},     
+\end_layout
+
+\begin_layout Plain Layout
+
+	projection/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		->,
+\end_layout
+
+\begin_layout Plain Layout
+
+		thick,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten <=2pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten >=2pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},
+\end_layout
+
+\begin_layout Plain Layout
+
+	every fit/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		ellipse,
+\end_layout
+
+\begin_layout Plain Layout
+
+		draw,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=0pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+ ]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {2/a,1/b}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=left:$
+\backslash
+l$] (a
+\backslash
+y) at (0,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {3/x,2/y,1/z}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=right:$
+\backslash
+l$] (b
+\backslash
+y) at (4,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(a1) (a2),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(b1) (b2) (b3),minimum width=2cm] {} ;
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,0) node {$g$};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+draw[projection] (a1) -- (b3);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a2) -- (b2);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+from the diagram of function 
+\begin_inset Formula $g$
+\end_inset
+
+ above we can see that every element of the codomain is mapped to by at
+ most one element of the domain, so function 
+\begin_inset Formula $g$
+\end_inset
+
+ is injective
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+As none of the functions above is simultaneously surjective and injective,
+ we can't classify them as bijective.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Find 
+\begin_inset Formula $g\circ f$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+This time I'm going to use the previous diagrams to build the diagram of
+ the composition g ◦ f
+\series bold
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	>=stealth,
+\end_layout
+
+\begin_layout Plain Layout
+
+	bullet/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		fill=black,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	circle,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	minimum width=1pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=1pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},     
+\end_layout
+
+\begin_layout Plain Layout
+
+	projection/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		->,
+\end_layout
+
+\begin_layout Plain Layout
+
+		thick,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten <=2pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten >=2pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},
+\end_layout
+
+\begin_layout Plain Layout
+
+	every fit/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		ellipse,
+\end_layout
+
+\begin_layout Plain Layout
+
+		draw,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=0pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+ ]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {1/3,2/2,3/1}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=left:$
+\backslash
+l$] (a
+\backslash
+y) at (0,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {2/b,3/a}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=above:$
+\backslash
+l$] (b
+\backslash
+y) at (4,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {3/x,2/y,1/z}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=right:$
+\backslash
+l$] (c
+\backslash
+y) at (8,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(a1) (a2) (a3),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(b2) (b3),minimum width=1cm,minimum height=2cm] {} ;
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(c1) (c2) (c3),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,3) node {$f$};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (6,3) node {$g$};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+draw[projection] (a1) -- (b3);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a2) -- (b2);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a3) -- (b2);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (b2) -- (c3);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (b3) -- (c2);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+Summarizing the diagram we have,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	>=stealth,
+\end_layout
+
+\begin_layout Plain Layout
+
+	bullet/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		fill=black,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	circle,
+\end_layout
+
+\begin_layout Plain Layout
+
+    	minimum width=1pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=1pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},     
+\end_layout
+
+\begin_layout Plain Layout
+
+	projection/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		->,
+\end_layout
+
+\begin_layout Plain Layout
+
+		thick,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten <=2pt,
+\end_layout
+
+\begin_layout Plain Layout
+
+		shorten >=2pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	},
+\end_layout
+
+\begin_layout Plain Layout
+
+	every fit/.style={
+\end_layout
+
+\begin_layout Plain Layout
+
+		ellipse,
+\end_layout
+
+\begin_layout Plain Layout
+
+		draw,
+\end_layout
+
+\begin_layout Plain Layout
+
+		inner sep=0pt
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+ ]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {1/3,2/2,3/1}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=left:$
+\backslash
+l$] (a
+\backslash
+y) at (0,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+y/
+\backslash
+l in {3/x,2/y,1/z}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+node[bullet,label=right:$
+\backslash
+l$] (c
+\backslash
+y) at (4,
+\backslash
+y) {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(a1) (a2) (a3),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node[draw,fit=(c1) (c2) (c3),minimum width=2cm] {};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw (2,0) node {$g 
+\backslash
+circ f$};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a1) -- (c2);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a2) -- (c3);
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+draw[projection] (a3) -- (c3);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Either ﬁnd the inverse of g ◦ f or explain why 
+\begin_inset Formula $g\circ f$
+\end_inset
+
+ is not invertible
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Formula $g\circ f$
+\end_inset
+
+ is not invertible because it cannot be classified as bijective.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+I want to develop a database of information about my book collection, which
+ tells me about the authors and genres of the various books I own.
+ At the moment I have books by Isaac Asimov, China Mieville, Peter F Hamilton
+ and Arthur C Clarke, and I denote the set of authors by A = {A, M, H, C},
+ abbreviating each author by the initial of his surname.
+ I am classifying the books as science ﬁction, fantasy, horror and non-ﬁction,
+ so my set of genres is G = {s, f , h, n}, again using initial letters as
+ abbreviations.
+ At the moment, I have science ﬁction works by China Mieville and Isaac
+ Asimov, I have fantasy by Peter F Hamilton and China Mieville, horror by
+ Peter F Hamilton and Arthur C Clarke, and non-ﬁction by Isaac Asimov.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Give the relation R on A × G which represents this information.
+ (You may use appropriate abbreviations.) 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R=\{(A,s),(A,n),(M,s),(M,f)(H,f),(H,h),(C,h)\}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[3.]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Draw the graph with adjacency matrix
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+ 
+\series bold
+A =
+\begin_inset Formula $\left[\begin{array}{ccccc}
+0 & 0 & 0 & 1 & 1\\
+0 & 0 & 1 & 0 & 0\\
+0 & 1 & 0 & 1 & 0\\
+1 & 0 & 1 & 0 & 1\\
+1 & 0 & 1 & 1 & 0
+\end{array}\right]$
+\end_inset
+
+ 
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+This the graph generated from adjacency matrix:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}[
+\end_layout
+
+\begin_layout Plain Layout
+
+		scale=.8,auto=left,
+\end_layout
+
+\begin_layout Plain Layout
+
+		every node/.style={circle,fill=gray!60}
+\end_layout
+
+\begin_layout Plain Layout
+
+		] 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node (n1) at (0,10) {1}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node (n2) at (4,10) {2};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node (n3) at (2,8) {3};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node (n4) at (2,10) {4};
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+node (n5) at (0,8) {5};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+foreach 
+\backslash
+from/
+\backslash
+to in {n1/n4, n1/n5,n2/n3, n3/n5, n3/n4, n4/n5} 
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+path (
+\backslash
+from) edge (
+\backslash
+to);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+ and hence ﬁnd the number of paths of length 2 from vertex 1 to vertex 5.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+A\times A & = & \left[\begin{array}{ccccc}
+2 & 0 & 2 & 1 & 1\\
+0 & 1 & 0 & 1 & 1\\
+2 & 0 & 3 & 1 & 1\\
+1 & 1 & 1 & 3 & 2\\
+1 & 1 & 1 & 2 & 3
+\end{array}\right]\\
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Looking at the position (1,5), also (5,1) once this is not a directed graph,
+ we can see that there is only one path of length 2.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[7.]
+\end_layout
+
+\end_inset
+
+
+\series bold
+Bob decides to use n = 221 = 13 × 17 and e = 11 as his public key for an
+ RSA cryptosystem.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Show that the decryption exponent is 35.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+To show that 35 is a decryption exponent, we need to check the following
+ condition:
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Formula $ed$
+\end_inset
+
+ 
+\begin_inset Formula $\equiv$
+\end_inset
+
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ (mod z)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+To calculate z we use the following formula:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $z=(p-1)(q-1)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+replacing the 
+\begin_inset Formula $p$
+\end_inset
+
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+ values from question into the formula we have:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $z=(13-1)(17-1)=192$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+now we calculate 
+\begin_inset Formula $ed$
+\end_inset
+
+ and its module of 192
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $ed=11\times35=385$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $385/192=2\frac{1}{192}\equiv1$
+\end_inset
+
+ (mod z)
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Find the encrypted form of the message 16.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Formula $C=M^{e}$
+\end_inset
+
+ (mod n)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $C=16^{11}$
+\end_inset
+
+(mod 221)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $11=8+2+1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $16^{1}\equiv35$
+\end_inset
+
+ (mod 221)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $16^{2}=256\equiv35$
+\end_inset
+
+ (mod 221)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $16^{4}\equiv35^{2}=1225\equiv120$
+\end_inset
+
+ (mod 221)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $16^{8}\equiv120^{2}=14400\equiv35$
+\end_inset
+
+ (mod 221)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $C=16^{8}\times16^{2}\times16\equiv35\times35\times16=19600\equiv152$
+\end_inset
+
+ (mod 221)
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

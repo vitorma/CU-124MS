@@ -260,8 +260,8 @@ status open
 
 \begin_layout Plain Layout
 \align left
-This is as can only be true if both parts are true, so as both parts are
- false, the expression has the truth value f (false).
+This is as can only be true if at least one parts are true, so as both parts
+ are false, the expression has the truth value f (false).
  
 \end_layout
 
@@ -3203,7 +3203,7 @@ the following Venn diagram illustrates all the information that we have
 
 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
